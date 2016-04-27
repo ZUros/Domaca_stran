@@ -4,17 +4,17 @@
 	<title>Kontakt</title>
 	<meta charset="utf-8">
 	<meta name = "format-detection" content = "telephone=no" />
-	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
-	<link rel="stylesheet" href="css/grid.css">
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/contact-form.css">
+	<link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="assets/css/grid.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/contact-form.css">
 
-	<script src="js/jquery.js"></script>
-	<script src="js/jquery-migrate-1.2.1.js"></script>
-	<script src="js/script.js"></script>
+	<script src="assets/js/jquery.js"></script>
+	<script src="assets/js/jquery-migrate-1.2.1.js"></script>
+	<script src="assets/js/script.js"></script>
 	<script src='//maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false'></script>
 	<!--[if (gt IE 9)|!(IE)]><!-->
-	<script src="js/wow.js"></script>
+	<script src="assets/js/wow.js"></script>
 	<script>
 		$(document).ready(function () {
 			if ($('html').hasClass('desktop')) {
@@ -26,13 +26,13 @@
 	<!--[if lt IE 8]>
 	<div style=' clear: both; text-align:center; position: relative;'>
 	 <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
-		 <img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+		 <img src="assets/images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
 	 </a>
 	</div>
 	<![endif]-->
 	<!--[if lt IE 9]>
-		<script src="js/html5shiv.js"></script>
-		<link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
+		<script src="assets/js/html5shiv.js"></script>
+		<link rel="stylesheet" type="text/css" media="screen" href="assets/css/ie.css">
 	<![endif]-->
 	</head>
 <body class="index-4">
@@ -42,10 +42,10 @@
 		<div class="container">
 			<div class="row">
 				<div class="grid_12">
-					<h1><a href="index.html">Domača stran</a><span>Uroš Završnik</span></h1>
+					<h1><a href="/">Domača stran</a><span>Uroš Završnik</span></h1>
 					<nav>
 						<ul class="sf-menu">
-							<li><a href="index.html">Domov</a>
+							<li><a href="/">Domov</a>
 								<ul>
 									<li><a href="#">Lorem ipsum</a></li>
 									<li><a href="#">Lorem ipsum</a>
@@ -58,10 +58,10 @@
 									<li><a href="#">Lorem ipsum</a></li>
 								</ul>
 							</li>
-							<li><a href="index-1.html">O meni</a></li>
-							<li><a href="index-2.html">Moji projekti</a></li>
-							<li><a href="index-3.html">Blog</a></li>
-							<li class="current"><a href="index-4.html">Kontakt</a></li>
+							<li><a href="o-meni">O meni</a></li>
+							<li><a href="moji-projekti">Moji projekti</a></li>
+							<li><a href="blog">Blog</a></li>
+							<li class="current"><a href="kontakt">Kontakt</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -193,8 +193,8 @@
 	google_api_map_init();
 	function google_api_map_init(){
 		var map;
-		var coordData = new google.maps.LatLng(parseFloat(40.650408), parseFloat(-73.950030,12));
-		var markCoord1 = new google.maps.LatLng(parseFloat(40.650408), parseFloat(-73.950030));
+		var coordData = new google.maps.LatLng(parseFloat(46.0607647), parseFloat(14.517945,17));
+		var markCoord1 = new google.maps.LatLng(parseFloat(46.0607647), parseFloat(14.517945,17));
 		var marker;
 		
 		function initialize() {

@@ -49,8 +49,8 @@ class MainHandler_Kontakt(BaseHandler):
 
 app = webapp2.WSGIApplication([
     webapp2.Route('/', MainHandler),
-    webapp2.Route('/O meni', MainHandler_O_meni),
-    webapp2.Route('/Moji projekti', MainHandler_Moji_projekti),
-    webapp2.Route('/Blog', MainHandler_Blog),
-    webapp2.Route('/Kontakt', MainHandler_Kontakt),
+    webapp2.Route('/o-meni', MainHandler_O_meni),
+    webapp2.Route('/moji-projekti', MainHandler_Moji_projekti),
+    webapp2.Route('/blog', MainHandler_Blog),
+    webapp2.Route('/kontakt', MainHandler_Kontakt),
 ], debug=True)
